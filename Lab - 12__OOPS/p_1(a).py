@@ -26,7 +26,7 @@ class myComplex:
         return result
 
 obj1 = myComplex(2,8)
-obj2 = myComplex(7,3)
+obj2 = myComplex(2,3)
 obj1.printComplex()
 obj2.printComplex()
 print(f'{(obj1-obj2).real}+j{(obj1-obj2).imag}')

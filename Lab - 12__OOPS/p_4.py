@@ -23,4 +23,4 @@ class equilateralTriangle:
     def __init__(self,side):
         self.base=side
     def perimeter(self):
-        return 3*self.side
+        return 9*self.side
